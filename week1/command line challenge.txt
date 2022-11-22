@@ -1,0 +1,20 @@
+1. How do I create a hidden file or folder? How do I display it in the CLI?
+
+You should put a dot(.) in front of the file or folder in order to create a hidden one.
+In order to display the hidden files or folders you should use command "ls -a".
+
+2. How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+You should use (-p) tag with mkdir in order to do that. It should be like this; 
+mkdir -p dir/{dir1,dir2,dir3} or mkdir -p these/are/just/for/fun
+
+3. Write more than one command that will create a file that looks like the following (you are not allowed to use the newline character (\n)):
+first message
+second message
+
+For this one you should create a file first. And then add the text inside.
+touch somefile.txt
+nano somefile.txt
+
+When you push enter button a screen will show up which you can easily write whatevr you want inside. 
+Then you can push "cntr + x, Y, enter" respectively. Then it will be done. 
