@@ -14,7 +14,10 @@ second message
 
 For this one you should create a file first. And then add the text inside.
 touch somefile.txt
-nano somefile.txt
 
-When you push enter button a screen will show up which you can easily write whatevr you want inside. 
-Then you can push "cntr + x, Y, enter" respectively. Then it will be done. 
+
+after that you can use;
+echo "first message" > somefile.txt 
+echo "second message" >> somefile.txt
+
+with this one we can add two line text in our text file.
